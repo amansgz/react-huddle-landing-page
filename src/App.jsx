@@ -1,9 +1,8 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Card from "./components/Card";
+import Cards from "./components/Cards";
 import MiniCard from './components/MiniCard';
 import Footer from "./components/Footer";
-import content from "./constants/content";
 import { Wrapper } from "./components/styles/Wrapper.styled";
 import { Container } from "./components/styles/Container.styled";
 
@@ -15,9 +14,7 @@ export default function App() {
         <Hero />
       </Wrapper>
       <Container>
-        {content.map((item, index) => (
-          <Card key={index} item={item} />
-        ))}
+        <Cards />
         <MiniCard />
       </Container>
       <Footer />
