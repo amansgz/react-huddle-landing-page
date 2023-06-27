@@ -16,7 +16,7 @@ Users should be able to:
 ## Built with
 
 - React
-- Style components
+- Styled-components
 - Mobile-first workflow
 
 ## Live site solution
