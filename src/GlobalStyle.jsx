@@ -14,24 +14,16 @@ export const GlobalStyle = createGlobalStyle `
 		margin: auto;
 		font-family: 'Open sans', sans-serif;
 		line-height: 1.5;
-	}
-
-	h1, 
+	} 
 	h2 {
 		font-family: 'Poppins', sans-serif;
+		font-size: ${SIZES.fs2};
 		font-weight: 600;
 		color: ${COLORS.neutral2};
 		margin: .6em 0;
 	}
-	h1 {
-		font-size: ${SIZES.fs1};
-	}
-	h2 {
-		font-size: ${SIZES.fs2};
-	}
 	p {
 		font-size: ${SIZES.fs3};
-
 	}
 	small {
 		font-size: ${SIZES.fs4};

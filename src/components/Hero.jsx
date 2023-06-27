@@ -1,4 +1,4 @@
-import { StyledHero } from "./styles/Hero.styled";
+import { StyledHero, Title, Text, HeroImage } from "./styles/Hero.styled";
 import { PinkButton } from "./styles/Button.styled";
 import { illustrationMockups } from "../assets";
 
@@ -6,23 +6,23 @@ export default function Hero() {
   return (
     <StyledHero>
       <div>
-        <h1>
+        <Title>
           Build The Community <br /> 
           Your Fans Will Love
-        </h1>
-        <p>
+        </Title>
+        <Text>
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
-        </p>
+        </Text>
         <PinkButton>
           Get Started For Free
         </PinkButton>
       </div>
 
-      <picture>
+      <HeroImage>
         <img src= {illustrationMockups} alt="illustration mockup" />
-      </picture>
+      </HeroImage>
     </StyledHero>
   );
 }

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "./values";
+import { COLORS, SIZES } from "./values";
 
 export const StyledHero = styled.section`
   display: flex;
@@ -17,21 +17,25 @@ export const StyledHero = styled.section`
     padding: 2em 4em;
     text-align: left;
   }
+`
+export const Title = styled.h1`
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: ${SIZES.fs1};
+  color: ${COLORS.neutral2};
+  margin: .6em 0;
+`
 
-  & p {
-    width: 290px;
-    color: COLORS.neutral2;
-    
-    @media (min-width: 768px) {
-      width: 42vw;
-      max-width: 540px;
-    }  
-  }
-  & button {
-    margin: 2em 0;
-    padding: 1em 4em;
-  }
-  & picture {
-    max-width: 680px;
-  }
-`;
+export const Text = styled.p`
+  width: 290px;
+  color: COLORS.neutral2;
+  
+  @media (min-width: 768px) {
+    width: 42vw;
+    max-width: 540px;
+  }  
+`
+
+export const HeroImage = styled.picture`
+  max-width: 680px;
+`

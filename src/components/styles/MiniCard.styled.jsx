@@ -22,4 +22,4 @@ export const StyledMiniCard = styled.article`
       padding: 1em 5em;
     }  
   }
-`;
+`

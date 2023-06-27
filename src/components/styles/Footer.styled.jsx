@@ -14,61 +14,60 @@ export const StyledFooter = styled.footer`
     padding-bottom: 3em;
   }
 
-  & picture {
-    width: 40vw;
-    max-width: 170px;
-    margin-bottom: 1.8em;
-  }
-
-  & div {
-    @media (min-width: 768px) {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  & ul {
+  ul {
     @media (min-width: 768px) {
       padding-top: 1em;
     }  
   }
-  & div ul:nth-child(1) {
-    padding: 1em;
-    padding-left: 0;
+`
+export const Container = styled.div`
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
-  & ul:nth-child(1) li {
+`
+export const Logo = styled.picture`
+  width: 40vw;
+  max-width: 170px;
+  margin-bottom: 1.8em;
+`
+export const ListInfo = styled.ul`
+  padding: 1em;
+  padding-left: 0;
+
+  li {
     display: flex;
     gap: 1em;
   }
-  & ul:nth-child(1) li picture {
-    display: inline;
-    width: 5vw;
-    max-width: 20px;
-  }
-  & ul:nth-child(1) span {
+  span {
     width: 350px;
 
-    @media (min-width: 768px) {
-      width: 25vw;
-      max-width: 380px;
-    }  
-  } 
-  & ul:nth-child(2) {
-    @media (min-width: 768px) {
-      padding-left: 1em;
-    }  
-  }
-  & a:hover,
-  & a:focus {
+  @media (min-width: 768px) {
+    width: 25vw;
+    max-width: 380px;
+  }  
+`
+
+export const Icon = styled.picture`
+  display: inline;
+  width: 5vw;
+  max-width: 20px;
+`
+export const NavLinks = styled.ul`
+  @media (min-width: 768px) {
+    padding-left: 1em;
+  }  
+  
+  a:hover,
+  a:focus {
     text-decoration: underline;
   }
+`
+export const Copyright = styled.small`
+  display: block;
+  text-align: center;
 
-  & small {
-    display: block;
-    text-align: center;
-
-    @media (min-width: 768px) {
-      text-align: right;
-    }
+  @media (min-width: 768px) {
+    text-align: right;
   }
-`;
+`

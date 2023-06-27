@@ -1,43 +1,43 @@
 import SocialLinks from "./SocialLinks";
-import { StyledFooter } from "./styles/Footer.styled";
+import { StyledFooter, Logo, Container, ListInfo, Icon, NavLinks, Copyright } from "./styles/Footer.styled";
 import { logoWhite, iconLocation, iconPhone, iconEmail } from "../assets";
 
 export default function Footer() {
   return (
     <StyledFooter>
-      <picture>
+      <Logo>
         <img src= {logoWhite} alt="logo" />
-      </picture>  
-      <div>
-        <ul>
+      </Logo>  
+      <Container>
+        <ListInfo>
           <li>
-            <picture>
+            <Icon>
               <img src= {iconLocation} alt=""/>  
-            </picture>
+            </Icon>
             <span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </span>
           </li>  
           <li>
-            <picture>
+            <Icon>
               <img src= {iconPhone} alt=""/>
-            </picture>  
+            </Icon>
             <span>
               +1-543-123-4567
             </span>  
           </li>
           <li>
-            <picture>
+            <Icon>
               <img src= {iconEmail} alt=""/>
-            </picture> 
+            </Icon> 
             <span> 
               example@huddle.com
             </span>  
           </li>  
-        </ul>
+        </ListInfo>
     
-        <ul>
+        <NavLinks>
           <li>
             <a href= "#">
               About Us
@@ -53,9 +53,9 @@ export default function Footer() {
               FAQ
             </a>  
           </li>
-        </ul>
+        </NavLinks>
     
-        <ul>
+        <NavLinks>
           <li>
             <a href= "#">
               Career
@@ -71,13 +71,13 @@ export default function Footer() {
               Contact Us
             </a>  
           </li>
-        </ul>
+        </NavLinks>
     
         <SocialLinks />
-      </div>
-      <small>
+      </Container>
+      <Copyright>
         &copy; Copyright 2018 Huddle. All rights reserved.
-      </small>
+      </Copyright>
     </StyledFooter>
   );
 }

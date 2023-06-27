@@ -19,11 +19,16 @@ export const Button = styled.button`
 `
 
 export const PinkButton = styled(Button)`
+  margin: 2em 0;
+  padding: 1em 4em;
   background-color: ${COLORS.primary};
   color: #FFF;
 `
 
 export const WhiteButton = styled(Button)`
+  width: 30vw;
+  max-width: 200px;
+  padding: 1em;
   background-color: #FFF;
   color: ${COLORS.neutral2};
 `

@@ -10,14 +10,10 @@ export const StyledHeader = styled.header`
   @media (min-width: 768px) {
     justify-content: space-around;
     gap: 50vw;
-  }    
-  & picture {
-    width: 30vw;
-    max-width: 170px;
   }
-  & button {
-    width: 30vw;
-    max-width: 200px;
-    padding: 1em;
-  }
-`;
+`
+
+export const Logo = styled.picture`
+  width: 30vw;
+  max-width: 170px;
+`

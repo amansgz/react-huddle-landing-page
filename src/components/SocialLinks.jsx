@@ -1,26 +1,26 @@
 import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
-import { StyledSocialLinks } from "./styles/SocialLinks.styled";
+import { StyledSocialLinks, ListLinks, Link } from "./styles/SocialLinks.styled";
 
 export default function SocialLinks() {
   return (
     <StyledSocialLinks>
-      <ul>
+      <ListLinks>
         <li>
-          <a href="https://facebook.com" aria-label="Go to Facebook">
+          <Link href="https://facebook.com" aria-label="Go to Facebook">
             <FaFacebook />
-          </a>
+          </Link>
         </li>
          <li>
-          <a href="https://twitter.com" aria-label="Go to Twitter">
+          <Link href="https://twitter.com" aria-label="Go to Twitter">
             <FaTwitter />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="https://instagram.com" aria-label="Go to Instagram">
+          <Link href="https://instagram.com" aria-label="Go to Instagram">
             <FaInstagram />
-          </a>
+          </Link>
         </li>
-      </ul>
+      </ListLinks>
     </StyledSocialLinks>
   );
 }

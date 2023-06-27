@@ -1,22 +1,26 @@
-import { StyledCard } from "./styles/Card.styled";
+import { StyledCard, CardImage, CardTitle, CardText } from "./styles/Card.styled";
 import { features } from "../constants";
 
 
 const FeatureCard = ({ title, content, image, alt, index, id }) => (
   <StyledCard layout={id % 2 === 0 && "row"}>
-    <picture>
+    <CardImage>
       <img src={image} alt={alt} />
-    </picture>
+    </CardImage>
     <div>
-      <h2>{title}</h2>
-      <p>{content}</p>
+      <CardTitle>
+        {title}
+      </CardTitle>
+      <CardText>
+        {content}
+      </CardText>
     </div>
   </StyledCard>
 );
 
 const Cards = () =>  (
   <section>
-    <div >
+    <div>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
