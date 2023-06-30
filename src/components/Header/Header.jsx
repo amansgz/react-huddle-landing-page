@@ -1,6 +1,6 @@
-import { StyledHeader, Logo } from "./styles/Header.styled";
-import { WhiteButton } from "./styles/Button.styled";
-import { logo } from "../assets";
+import { StyledHeader, Logo } from "./Header.styled";
+import { WhiteButton } from "../Button/Button.styled";
+import { logo } from "../../assets";
 
 export default function Header() {
   return (

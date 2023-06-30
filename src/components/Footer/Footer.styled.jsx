@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "./values";
+import { COLORS } from "../../constants/values";
 
 export const StyledFooter = styled.footer`
   padding: 2em;

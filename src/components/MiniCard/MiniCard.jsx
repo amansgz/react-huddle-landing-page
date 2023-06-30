@@ -1,5 +1,5 @@
-import { StyledMiniCard } from "./styles/MiniCard.styled";
-import { PinkButton } from "./styles/Button.styled";
+import { StyledMiniCard } from "./MiniCard.styled";
+import { PinkButton } from "../Button/Button.styled";
 
 export default function MiniCard(){
 	return (	

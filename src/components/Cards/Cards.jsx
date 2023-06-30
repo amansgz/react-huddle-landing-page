@@ -1,5 +1,5 @@
-import { StyledCard, CardImage, CardTitle, CardText } from "./styles/Card.styled";
-import { features } from "../constants";
+import { StyledCard, CardImage, CardTitle, CardText } from "./Card.styled";
+import { features } from "../../constants/index";
 
 
 const FeatureCard = ({ title, content, image, alt, index, id }) => (

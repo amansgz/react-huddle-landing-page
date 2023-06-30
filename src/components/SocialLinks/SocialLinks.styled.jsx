@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "./values";
+import { COLORS } from "../../constants/values";
 
 export const StyledSocialLinks = styled.div`
   @media (min-width: 1200px) {

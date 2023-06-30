@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS, SIZES } from "./values";
+import { COLORS, SIZES } from "../../constants/values";
 
 export const StyledHero = styled.section`
   display: flex;

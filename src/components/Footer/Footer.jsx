@@ -1,6 +1,6 @@
-import SocialLinks from "./SocialLinks";
-import { StyledFooter, Logo, Container, ListInfo, Icon, NavLinks, Copyright } from "./styles/Footer.styled";
-import { logoWhite, iconLocation, iconPhone, iconEmail } from "../assets";
+import SocialLinks from "../SocialLinks/SocialLinks";
+import { StyledFooter, Logo, Container, ListInfo, Icon, NavLinks, Copyright } from "./Footer.styled";
+import { logoWhite, iconLocation, iconPhone, iconEmail } from "../../assets";
 
 export default function Footer() {
   return (

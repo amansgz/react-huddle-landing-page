@@ -1,5 +1,5 @@
 import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
-import { StyledSocialLinks, ListLinks, Link } from "./styles/SocialLinks.styled";
+import { StyledSocialLinks, ListLinks, Link } from "./SocialLinks.styled";
 
 export default function SocialLinks() {
   return (
