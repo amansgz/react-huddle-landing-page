@@ -15,13 +15,6 @@ export const GlobalStyle = createGlobalStyle `
 		font-family: 'Open sans', sans-serif;
 		line-height: 1.5;
 	} 
-	main {
-		padding: 4em 1em;
-		
-		@media (min-width: 768px) {
-      padding: 12em 4em 2em;
-    } 	
-	}
 	h2 {
 		font-family: 'Poppins', sans-serif;
 		font-size: ${SIZES.fs2};
