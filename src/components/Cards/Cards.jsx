@@ -1,31 +1,29 @@
-import { StyledCard, CardImage, CardTitle, CardText } from "./Card.styled";
+import { StyledCard } from "./Card.styled";
 import { features } from "../../constants/index";
 
 
 const FeatureCard = ({ title, content, image, alt, index, id }) => (
   <StyledCard layout={id % 2 === 0 && "row"}>
-    <CardImage>
+    <picture>
       <img src={image} alt={alt} />
-    </CardImage>
+    </picture>
     <div>
-      <CardTitle>
+      <h2>
         {title}
-      </CardTitle>
-      <CardText>
+      </h2>
+      <p>
         {content}
-      </CardText>
+      </p>
     </div>
   </StyledCard>
 );
 
 const Cards = () =>  (
-  <section>
-    <div>
+  <div>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
-    </div>
-  </section>
+  </div>
 );
 
 export default Cards;

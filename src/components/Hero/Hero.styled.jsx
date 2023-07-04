@@ -5,19 +5,25 @@ export const StyledHero = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em;
   text-align:center;
   background-color: ${COLORS.neutral1};
-  background-color: transparent; 
+  background-image: url(../assets/bg-hero-mobile.svg);
+  background-repeat: no repeat;
+  background-size: cover;
+  padding-top: 8em;
 
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
     gap: 2em;
-    padding: 2em 4em;
+    padding: 10em 4em 4em;
     text-align: left;
+    background-image: url(../assets/bg-hero-desktop.svg);
+    background-position: top center;
   }
 `
+
+
 export const Title = styled.h1`
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -27,13 +33,9 @@ export const Title = styled.h1`
 `
 
 export const Text = styled.p`
-  width: 290px;
-  color: COLORS.neutral2;
-  
-  @media (min-width: 768px) {
-    width: 42vw;
-    max-width: 540px;
-  }  
+  width: 82vw;
+  max-width: 540px;
+  color: ${COLORS.neutral2};
 `
 
 export const HeroImage = styled.picture`

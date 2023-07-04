@@ -1,5 +1,5 @@
 import { StyledHero, Title, Text, HeroImage } from "./Hero.styled";
-import { PinkButton } from "../Button/Button.styled";
+import { PinkButton } from "../Shared/Button.styled";
 import { illustrationMockups } from "../../assets";
 
 export default function Hero() {

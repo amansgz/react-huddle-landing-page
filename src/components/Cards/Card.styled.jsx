@@ -22,28 +22,27 @@ export const StyledCard = styled.article`
     text-align: left; 
   }
   
+  picture {
+    @media (min-width: 1024px) {
+      padding-left: 4em;
+    }
+  }
+
   div {
     @media (min-width: 1024px) {
       padding-left: 4em;
     }    
   }
-`
-export const CardImage = styled.picture`
-  @media (min-width: 1024px) {
-    padding-left: 4em;
+
+  h2{
+    padding-top: 2em;    
   }
-`
-export const CardTitle = styled.h2`
-  padding-top: 2em;    
-`
 
-export const CardText = styled.p`
-  width: 270px;
-  color: ${COLORS.neutral3};
-  margin: 0;
-
-  @media (min-width: 768px) {
-    width: 40vw;
+  p {
+    width: 72vw;
     max-width: 550px;
+    color: ${COLORS.neutral3};
+    margin: 0;
   }
 `
+  
