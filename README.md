@@ -1,6 +1,7 @@
 # 👩‍💻 Huddle landing page with alternating feature blocks
 
 ## The challenge
+The challenge is to build out this landing page and get it looking as close to the design as possible.
 
 Users should be able to:
 
