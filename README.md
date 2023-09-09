@@ -1,9 +1,4 @@
-# 👩‍💻 Frontend Mentor - Huddle landing page with alternating feature blocks solution
-
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-This is a solution for [Huddle landing page with alternating feature blocks](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100) challenge.
-
+# 👩‍💻 Huddle landing page with alternating feature blocks solution
 
 ## The challenge
 
@@ -19,12 +14,18 @@ Users should be able to:
 - Styled-components
 - Mobile-first workflow
 
-## Live site solution
+<div>
+  <h3>
+    <a href= "https://react-huddle-landing-page.netlify.app/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-[Live site](https://react-huddle-landing-page.netlify.app/) hosted on Netlify.
+![Design preview for the Order summary card coding challenge]()
 
-## Author
-
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
-
-Join to [Frontend Mentor Discord community](https://discord.gg/UAfh3qzhYb)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
