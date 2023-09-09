@@ -26,6 +26,6 @@ Users should be able to:
   </h3>
 </div>
 
-![Design preview for the Order summary card coding challenge](https://github.com/amansgz/react-huddle-landing-page/blob/4aa794ddd98295abd63957f75785716c54becb35/public/assets/preview.png)
+![Design preview for the Order summary card coding challenge](./public/assets/preview.png)
 
 This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
